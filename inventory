@@ -1,0 +1,15 @@
+# vim: ft=ini
+[image:children]
+image_datacamp-ops
+[image:vars]
+region=us-east-1
+runlist=packer-role
+availability_zone=us-east-1a
+image_runlist=example-role
+build_runlist=packer-role
+
+[image_datacamp-ops:vars]
+# key=value
+
+[image_datacamp-ops]
+image1.us-east-1.internal.datacamp-ops.com
