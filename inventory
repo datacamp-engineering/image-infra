@@ -3,7 +3,7 @@
 image_datacamp-ops
 [image:vars]
 region=us-east-1
-runlist=packer-role
+runlist=
 availability_zone=us-east-1a
 image_runlist=example-role
 build_runlist=packer-role
