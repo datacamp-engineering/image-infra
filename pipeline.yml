@@ -5,4 +5,4 @@ pipeline_type: "image"
 pipelines:
   - name: image
     environments:
-      - name: datacamp-staging
+      - name: datacamp-ops
